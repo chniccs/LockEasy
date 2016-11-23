@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/withe"
+                android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_active_manager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="需要您先去激动设备管理器"/>
+
+    <Button
+        android:textColor="#777777"
+        android:id="@+id/btn_active"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_active_manager"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/btn_activite_selector"
+        android:text="去激活"/>
+    <TextView
+        android:layout_marginBottom="4dp"
+        android:textSize="12sp"
+        android:textColor="#bbb"
+        android:gravity="center"
+        android:text="by:chniccs"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
