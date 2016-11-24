@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Lock esay</string>
+    <string name="activited_des">activited</string>
+    <string name="activite">activite</string>
+    <string name="exit">exit</string>
 </resources>
